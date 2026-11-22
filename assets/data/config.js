@@ -1,6 +1,6 @@
 const CONFIG = {
     loja: "Feira em Casa · Presidente Epitácio",
-    formspree: "https://formspree.io/f/SEU_ID_AQUI",   // cole o link do seu formulário do Formspree
+    formspree: "https://formspree.io/f/mwlorpno",   // cole o link do seu formulário do Formspree
     info: [                                              // avisos que aparecem no topo
         "Pedidos até quarta-feira, 18h",
         "Entrega na sexta-feira",
