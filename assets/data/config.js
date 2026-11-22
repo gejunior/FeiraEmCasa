@@ -8,6 +8,6 @@ const CONFIG = {
     ],
     taxaEntrega: 2.50,        // em reais; use 0 para entrega grátis
     pedidoMinimo: 1,       // em reais; use 0 para não ter mínimo
-    bairros: ["Centro", "Vila Real", "Jardim Tropical", "Outro bairro"],  // opções do campo bairro
+    bairros: ["Centro", "Jardim Real", "Vila Maria", "Jardim Tropical", "Outro bairro"],  // opções do campo bairro
     aviso: "Preços e disponibilidade podem mudar de uma semana para outra. Os produtos são pesados na hora de separar o pedido, então o valor final pode variar um pouco."
 };
