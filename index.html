@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src https://formspree.io; form-action 'none'; base-uri 'none'">
+    <meta name="theme-color" content="#1F5B38">
+    <title>Feira em Casa – Presidente Epitácio</title>
+    <meta name="description"
+        content="Monte sua cesta de frutas, legumes e verduras da semana e receba em casa em Presidente Epitácio.">
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🥬%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Nunito+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="wrap">
+            <p class="brand" id="loja"></p>
+            <h1>Monte sua cesta da semana</h1>
+            <p class="lead">Escolha o que quer da feira. A gente separa tudo fresquinho e entrega na sua casa.</p>
+            <ul class="info" id="info"></ul>
+        </div>
+    </header>
+
+    <main class="wrap" id="lista" aria-label="Produtos da semana">
+        <noscript>Ative o JavaScript do navegador para montar seu pedido.</noscript>
+    </main>
+
+    <div class="bar">
+        <div class="wrap">
+            <div class="resumo" id="resumo"></div>
+            <button class="btn" id="revisar" disabled>Revisar pedido</button>
+        </div>
+    </div>
+
+    <dialog id="dlg" aria-labelledby="dlgTitulo">
+        <div class="dlg" id="dlgConteudo"></div>
+    </dialog>
+
+    <script src="assets/data/config.js" defer></script>
+    <script src="assets/data/products.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/pedido.js" defer></script>
+</body>
+
+</html>
